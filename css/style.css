@@ -32,8 +32,7 @@ span {
   background-color: var(--color-box);
   border: var(--white-border);
   text-align: center;
-  padding: 1em;
-  
+  padding: 1em;  
 }
 .box-inner {
   background-color: var(--color-inner-box);
@@ -45,7 +44,6 @@ span {
   border: var(--white-border);
   padding: .4em;
 }
-
 .mb-1{
   margin-bottom: 1em;
 }
