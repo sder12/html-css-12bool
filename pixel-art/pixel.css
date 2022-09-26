@@ -14,32 +14,41 @@
 }
 
 /* COLORS */
-.frog-line{
-    background-color: var(--frog-line);
+.frog-line {
+  background-color: var(--frog-line);
 }
-.frog-body{
-    background-color: var(--frog-body);
+.frog-body {
+  background-color: var(--frog-body);
 }
-.frog-belly{
-    background-color: var(--frog-belly);
+.frog-belly {
+  background-color: var(--frog-belly);
 }
-.frog-heart{
-    background-color: var(--frog-heart);
+.frog-heart {
+  background-color: var(--frog-heart);
 }
-.frog-eye{
-    background-color: var(--frog-eye);
+.frog-eye {
+  background-color: var(--frog-eye);
 }
 
 /* Row */
-.row{
-    height: calc(100% / 12);
-    background-color: var(--frog-background);    
+.row {
+  height: calc(100% / 12);
+  background-color: var(--frog-background);
 }
-.row-8{
-    height: calc(100% / 12 * 8);
+.row-10 {
+  height: calc(100% / 12 * 10);
 }
-.row-5{
-    height: calc(100% / 12 * 5);
+.row-9 {
+  height: calc(100% / 12 * 9);
+}
+.row-8 {
+  height: calc(100% / 12 * 8);
+}
+.row-5 {
+  height: calc(100% / 12 * 5);
+}
+.row-3 {
+  height: calc(100% / 12 * 3);
 }
 /* Box */
 .container {
@@ -47,21 +56,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* DEBUG */
   height: 100vh;
 }
 .wrapper {
   display: flex;
   flex-wrap: wrap;
-  width: 600px;
-  height: 600px;
+  width: 30rem;
+  height: 30rem;
   border: 1px solid black;
 }
-section{
-    height: calc(100% / 3);
-    width: calc(100% / 3);
-    border: 1px solid black;;
+section {
+  height: calc(100% / 3);
+  width: calc(100% / 3);
+  /* border: 1px solid black;; */
 }
 
+.frog-heart:hover{
+    cursor: pointer;    }
 
 
+section:nth-child(5):hover .frog-heart{
+    background-color: rgb(255, 99, 99);
+}
