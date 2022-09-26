@@ -17,9 +17,11 @@ html {
 h2 {
   color: black;
   font-size: 1.5rem;
+  padding: .5em .3em;
 }
 span {
   color: white;
+  font-size: 1rem;
 }
 
 /* Box */
@@ -27,8 +29,23 @@ span {
   background-color: var(--color-container);
 }
 .box {
-  background-color: var(--color-box);  
+  background-color: var(--color-box);
+  border: var(--white-border);
+  text-align: center;
+  padding: 1em;
+  
 }
 .box-inner {
   background-color: var(--color-inner-box);
+}
+.row-inner{
+  background-color: var(--color-container);
+}
+.row-inner div{
+  border: var(--white-border);
+  padding: .4em;
+}
+
+.mb-1{
+  margin-bottom: 1em;
 }
